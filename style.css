@@ -1,0 +1,68 @@
+body{
+  background-color: #333533;
+  /* background:linear-gradient(to right, rgb(76, 109, 123), rgb(76, 109, 123), rgb(76, 109, 123));
+  color:white; */
+  
+}
+.track-container{
+  margin-top:50px;
+  padding:10px 10px;
+  width:70%;
+  margin: auto;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.issueTitle{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-bg{
+  background-color:#e2f3f5;
+  box-shadow:  0px 1px 2px white;
+
+  color:black;
+  padding:40px;
+  border-radius:10px;
+  margin-bottom: 12%;
+}
+.button{
+  width:20%;
+  text-align: center;
+  margin-top:25px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 480px){
+  .button{
+    width:100%;
+    font-weight: 600;
+    font-size:medium;
+    margin-top: 20px;
+  }
+  .button-add{
+    text-align: center;
+  }
+
+}
+@media (max-width: 480px){
+  .track-container{
+    margin-top:50px;
+    padding:10px 10px;
+    width:90%;
+    margin: auto;
+  }
+  .form-bg{
+    width:100%;
+    margin:auto;
+    margin-bottom:30%;
+  }
+  .button{
+    width:100%;
+    margin-top: 20px;
+  }
+  .foot-subText{
+    display: block;
+  }
+
+}

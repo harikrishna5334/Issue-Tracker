@@ -1,8 +1,7 @@
 body{
   background-color: #333533;
-  /* background:linear-gradient(to right, rgb(76, 109, 123), rgb(76, 109, 123), rgb(76, 109, 123));
-  color:white; */
-  
+  color:white;
+
 }
 .track-container{
   margin-top:50px;
